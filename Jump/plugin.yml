@@ -1,0 +1,8 @@
+name: Jump
+author: stoffe19
+version: 0.1
+main: de.stoffe19.Jump.Classes.MainClass
+commands:
+  Jumper:
+  description: A Simple Jump n Run Plugin
+  usage: /jumper
