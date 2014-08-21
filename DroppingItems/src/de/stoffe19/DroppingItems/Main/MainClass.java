@@ -14,7 +14,7 @@ public class MainClass extends JavaPlugin {
 	
 	registerCommands();
 	
-	this.getServer().getPluginManager().registerEvents(new DispenserRandom, this);
+	this.getServer().getPluginManager().registerEvents(new DispenserRandom(), this);
 	
 	System.out.println("[DroppingItems] Plugin was activated!");
 	
