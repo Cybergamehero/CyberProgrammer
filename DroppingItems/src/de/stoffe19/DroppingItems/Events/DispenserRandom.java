@@ -11,16 +11,6 @@ import de.stoffe19.DroppingItems.Main.MainClass;
 
 public class DispenserRandom implements Listener{
 	
-	@SuppressWarnings("unused")
-	private MainClass plugin;
-
-
-
-
-	public DispenserRandom(MainClass mainclass) {
-		this.plugin = mainclass;
-	}
-	
 	
 	
 
