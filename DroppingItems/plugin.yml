@@ -1,0 +1,11 @@
+name: DroppingItems
+version: 0.2
+description: Dropping Random Items from Dispenser
+main: de.stoffe19.DroppingItems.Main.MainClass
+database: false
+author: stoffe19
+commands:
+  random:
+    aliases: [random]
+    description: random items fuer dich
+    permission: droppingitems.random
