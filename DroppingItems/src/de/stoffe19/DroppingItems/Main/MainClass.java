@@ -13,9 +13,8 @@ public class MainClass extends JavaPlugin {
  public void onEnable(){
 	
 	registerCommands();
-	registerEvents();
 	
-	
+	this.getServer().getPluginManager().registerEvents(new DispenserRandom, this);
 	
 	System.out.println("[DroppingItems] Plugin was activated!");
 	
@@ -23,10 +22,6 @@ public class MainClass extends JavaPlugin {
 
 public void registerCommands() {
 	getCommand("random").setExecutor(new RandomCommand(this));
-}
-
-public void registerEvents() {
-	new DispenserRandom(this);
 }
 
 @Override
